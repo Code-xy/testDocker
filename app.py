@@ -9,3 +9,5 @@ print(resp.text)
 
 resp = requests.get("https://www.google.com")
 print(resp.text)
+
+time.sleep(20)
